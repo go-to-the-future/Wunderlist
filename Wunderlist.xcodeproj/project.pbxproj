@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826783BD227D9B4F005DF2E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826783BC227D9B4F005DF2E2 /* AppDelegate.swift */; };
+		826783BF227D9B4F005DF2E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826783BE227D9B4F005DF2E2 /* ViewController.swift */; };
+		826783C2227D9B4F005DF2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826783C0227D9B4F005DF2E2 /* Main.storyboard */; };
+		826783C4227D9B50005DF2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826783C3227D9B50005DF2E2 /* Assets.xcassets */; };
+		826783C7227D9B50005DF2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826783C5227D9B50005DF2E2 /* LaunchScreen.storyboard */; };
+		826783D2227D9B51005DF2E2 /* WunderlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826783D1227D9B51005DF2E2 /* WunderlistTests.swift */; };
+		826783DD227D9B51005DF2E2 /* WunderlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826783DC227D9B51005DF2E2 /* WunderlistUITests.swift */; };
+		826783EB227D9F5B005DF2E2 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783EA227D9F5B005DF2E2 /* 0.jpg */; };
+		826783F7227D9FAF005DF2E2 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783EC227D9FAE005DF2E2 /* 6.jpg */; };
+		826783F8227D9FAF005DF2E2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783ED227D9FAE005DF2E2 /* 1.jpg */; };
+		826783F9227D9FAF005DF2E2 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783EE227D9FAE005DF2E2 /* 4.jpg */; };
+		826783FA227D9FAF005DF2E2 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783EF227D9FAE005DF2E2 /* 8.jpg */; };
+		826783FB227D9FAF005DF2E2 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783F0227D9FAE005DF2E2 /* 5.jpg */; };
+		826783FC227D9FAF005DF2E2 /* postline.png in Resources */ = {isa = PBXBuildFile; fileRef = 826783F1227D9FAE005DF2E2 /* postline.png */; };
+		826783FD227D9FAF005DF2E2 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783F2227D9FAE005DF2E2 /* 3.jpg */; };
+		826783FE227D9FAF005DF2E2 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783F3227D9FAE005DF2E2 /* 2.jpg */; };
+		826783FF227D9FAF005DF2E2 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783F4227D9FAE005DF2E2 /* 7.jpg */; };
+		82678400227D9FAF005DF2E2 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826783F5227D9FAE005DF2E2 /* 9.jpg */; };
+		82678403227DA106005DF2E2 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82678402227DA106005DF2E2 /* NextViewController.swift */; };
+		82678405227DA134005DF2E2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82678404227DA134005DF2E2 /* SettingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		826783CE227D9B51005DF2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826783B1227D9B4F005DF2E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826783B8227D9B4F005DF2E2;
+			remoteInfo = Wunderlist;
+		};
+		826783D9227D9B51005DF2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826783B1227D9B4F005DF2E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826783B8227D9B4F005DF2E2;
+			remoteInfo = Wunderlist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		826783B9227D9B4F005DF2E2 /* Wunderlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wunderlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		826783BC227D9B4F005DF2E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		826783BE227D9B4F005DF2E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		826783C1227D9B4F005DF2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		826783C3227D9B50005DF2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		826783C6227D9B50005DF2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		826783C8227D9B50005DF2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826783CD227D9B51005DF2E2 /* WunderlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		826783D1227D9B51005DF2E2 /* WunderlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderlistTests.swift; sourceTree = "<group>"; };
+		826783D3227D9B51005DF2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826783D8227D9B51005DF2E2 /* WunderlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		826783DC227D9B51005DF2E2 /* WunderlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderlistUITests.swift; sourceTree = "<group>"; };
+		826783DE227D9B51005DF2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826783EA227D9F5B005DF2E2 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		826783EC227D9FAE005DF2E2 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		826783ED227D9FAE005DF2E2 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		826783EE227D9FAE005DF2E2 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		826783EF227D9FAE005DF2E2 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		826783F0227D9FAE005DF2E2 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		826783F1227D9FAE005DF2E2 /* postline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = postline.png; sourceTree = "<group>"; };
+		826783F2227D9FAE005DF2E2 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		826783F3227D9FAE005DF2E2 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		826783F4227D9FAE005DF2E2 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		826783F5227D9FAE005DF2E2 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		82678402227DA106005DF2E2 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		82678404227DA134005DF2E2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826783B6227D9B4F005DF2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826783CA227D9B51005DF2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826783D5227D9B51005DF2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		826783B0227D9B4F005DF2E2 = {
+			isa = PBXGroup;
+			children = (
+				826783BB227D9B4F005DF2E2 /* Wunderlist */,
+				826783D0227D9B51005DF2E2 /* WunderlistTests */,
+				826783DB227D9B51005DF2E2 /* WunderlistUITests */,
+				826783BA227D9B4F005DF2E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		826783BA227D9B4F005DF2E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826783B9227D9B4F005DF2E2 /* Wunderlist.app */,
+				826783CD227D9B51005DF2E2 /* WunderlistTests.xctest */,
+				826783D8227D9B51005DF2E2 /* WunderlistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		826783BB227D9B4F005DF2E2 /* Wunderlist */ = {
+			isa = PBXGroup;
+			children = (
+				826783BC227D9B4F005DF2E2 /* AppDelegate.swift */,
+				826783BE227D9B4F005DF2E2 /* ViewController.swift */,
+				82678402227DA106005DF2E2 /* NextViewController.swift */,
+				82678404227DA134005DF2E2 /* SettingViewController.swift */,
+				826783C0227D9B4F005DF2E2 /* Main.storyboard */,
+				826783C3227D9B50005DF2E2 /* Assets.xcassets */,
+				826783EA227D9F5B005DF2E2 /* 0.jpg */,
+				826783ED227D9FAE005DF2E2 /* 1.jpg */,
+				826783F3227D9FAE005DF2E2 /* 2.jpg */,
+				826783F2227D9FAE005DF2E2 /* 3.jpg */,
+				826783EE227D9FAE005DF2E2 /* 4.jpg */,
+				826783F0227D9FAE005DF2E2 /* 5.jpg */,
+				826783EC227D9FAE005DF2E2 /* 6.jpg */,
+				826783F4227D9FAE005DF2E2 /* 7.jpg */,
+				826783EF227D9FAE005DF2E2 /* 8.jpg */,
+				826783F5227D9FAE005DF2E2 /* 9.jpg */,
+				826783C5227D9B50005DF2E2 /* LaunchScreen.storyboard */,
+				826783C8227D9B50005DF2E2 /* Info.plist */,
+				826783F1227D9FAE005DF2E2 /* postline.png */,
+			);
+			path = Wunderlist;
+			sourceTree = "<group>";
+		};
+		826783D0227D9B51005DF2E2 /* WunderlistTests */ = {
+			isa = PBXGroup;
+			children = (
+				826783D1227D9B51005DF2E2 /* WunderlistTests.swift */,
+				826783D3227D9B51005DF2E2 /* Info.plist */,
+			);
+			path = WunderlistTests;
+			sourceTree = "<group>";
+		};
+		826783DB227D9B51005DF2E2 /* WunderlistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				826783DC227D9B51005DF2E2 /* WunderlistUITests.swift */,
+				826783DE227D9B51005DF2E2 /* Info.plist */,
+			);
+			path = WunderlistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		826783B8227D9B4F005DF2E2 /* Wunderlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826783E1227D9B51005DF2E2 /* Build configuration list for PBXNativeTarget "Wunderlist" */;
+			buildPhases = (
+				826783B5227D9B4F005DF2E2 /* Sources */,
+				826783B6227D9B4F005DF2E2 /* Frameworks */,
+				826783B7227D9B4F005DF2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wunderlist;
+			productName = Wunderlist;
+			productReference = 826783B9227D9B4F005DF2E2 /* Wunderlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		826783CC227D9B51005DF2E2 /* WunderlistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826783E4227D9B51005DF2E2 /* Build configuration list for PBXNativeTarget "WunderlistTests" */;
+			buildPhases = (
+				826783C9227D9B51005DF2E2 /* Sources */,
+				826783CA227D9B51005DF2E2 /* Frameworks */,
+				826783CB227D9B51005DF2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826783CF227D9B51005DF2E2 /* PBXTargetDependency */,
+			);
+			name = WunderlistTests;
+			productName = WunderlistTests;
+			productReference = 826783CD227D9B51005DF2E2 /* WunderlistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		826783D7227D9B51005DF2E2 /* WunderlistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826783E7227D9B51005DF2E2 /* Build configuration list for PBXNativeTarget "WunderlistUITests" */;
+			buildPhases = (
+				826783D4227D9B51005DF2E2 /* Sources */,
+				826783D5227D9B51005DF2E2 /* Frameworks */,
+				826783D6227D9B51005DF2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826783DA227D9B51005DF2E2 /* PBXTargetDependency */,
+			);
+			name = WunderlistUITests;
+			productName = WunderlistUITests;
+			productReference = 826783D8227D9B51005DF2E2 /* WunderlistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		826783B1227D9B4F005DF2E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kiyoto Ryuman";
+				TargetAttributes = {
+					826783B8227D9B4F005DF2E2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					826783CC227D9B51005DF2E2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 826783B8227D9B4F005DF2E2;
+					};
+					826783D7227D9B51005DF2E2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 826783B8227D9B4F005DF2E2;
+					};
+				};
+			};
+			buildConfigurationList = 826783B4227D9B4F005DF2E2 /* Build configuration list for PBXProject "Wunderlist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 826783B0227D9B4F005DF2E2;
+			productRefGroup = 826783BA227D9B4F005DF2E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				826783B8227D9B4F005DF2E2 /* Wunderlist */,
+				826783CC227D9B51005DF2E2 /* WunderlistTests */,
+				826783D7227D9B51005DF2E2 /* WunderlistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		826783B7227D9B4F005DF2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826783FD227D9FAF005DF2E2 /* 3.jpg in Resources */,
+				826783EB227D9F5B005DF2E2 /* 0.jpg in Resources */,
+				826783F9227D9FAF005DF2E2 /* 4.jpg in Resources */,
+				826783C7227D9B50005DF2E2 /* LaunchScreen.storyboard in Resources */,
+				826783FC227D9FAF005DF2E2 /* postline.png in Resources */,
+				826783FB227D9FAF005DF2E2 /* 5.jpg in Resources */,
+				826783FE227D9FAF005DF2E2 /* 2.jpg in Resources */,
+				826783C4227D9B50005DF2E2 /* Assets.xcassets in Resources */,
+				826783FA227D9FAF005DF2E2 /* 8.jpg in Resources */,
+				82678400227D9FAF005DF2E2 /* 9.jpg in Resources */,
+				826783F8227D9FAF005DF2E2 /* 1.jpg in Resources */,
+				826783FF227D9FAF005DF2E2 /* 7.jpg in Resources */,
+				826783C2227D9B4F005DF2E2 /* Main.storyboard in Resources */,
+				826783F7227D9FAF005DF2E2 /* 6.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826783CB227D9B51005DF2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826783D6227D9B51005DF2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		826783B5227D9B4F005DF2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826783BF227D9B4F005DF2E2 /* ViewController.swift in Sources */,
+				82678403227DA106005DF2E2 /* NextViewController.swift in Sources */,
+				826783BD227D9B4F005DF2E2 /* AppDelegate.swift in Sources */,
+				82678405227DA134005DF2E2 /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826783C9227D9B51005DF2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826783D2227D9B51005DF2E2 /* WunderlistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826783D4227D9B51005DF2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826783DD227D9B51005DF2E2 /* WunderlistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		826783CF227D9B51005DF2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826783B8227D9B4F005DF2E2 /* Wunderlist */;
+			targetProxy = 826783CE227D9B51005DF2E2 /* PBXContainerItemProxy */;
+		};
+		826783DA227D9B51005DF2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826783B8227D9B4F005DF2E2 /* Wunderlist */;
+			targetProxy = 826783D9227D9B51005DF2E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		826783C0227D9B4F005DF2E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826783C1227D9B4F005DF2E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		826783C5227D9B50005DF2E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826783C6227D9B50005DF2E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826783DF227D9B51005DF2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		826783E0227D9B51005DF2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		826783E2227D9B51005DF2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH2UHCDNT4;
+				INFOPLIST_FILE = Wunderlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.Wunderlist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		826783E3227D9B51005DF2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH2UHCDNT4;
+				INFOPLIST_FILE = Wunderlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.Wunderlist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		826783E5227D9B51005DF2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH2UHCDNT4;
+				INFOPLIST_FILE = WunderlistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.WunderlistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wunderlist.app/Wunderlist";
+			};
+			name = Debug;
+		};
+		826783E6227D9B51005DF2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH2UHCDNT4;
+				INFOPLIST_FILE = WunderlistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.WunderlistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wunderlist.app/Wunderlist";
+			};
+			name = Release;
+		};
+		826783E8227D9B51005DF2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH2UHCDNT4;
+				INFOPLIST_FILE = WunderlistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.WunderlistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wunderlist;
+			};
+			name = Debug;
+		};
+		826783E9227D9B51005DF2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH2UHCDNT4;
+				INFOPLIST_FILE = WunderlistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.WunderlistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wunderlist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		826783B4227D9B4F005DF2E2 /* Build configuration list for PBXProject "Wunderlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826783DF227D9B51005DF2E2 /* Debug */,
+				826783E0227D9B51005DF2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826783E1227D9B51005DF2E2 /* Build configuration list for PBXNativeTarget "Wunderlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826783E2227D9B51005DF2E2 /* Debug */,
+				826783E3227D9B51005DF2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826783E4227D9B51005DF2E2 /* Build configuration list for PBXNativeTarget "WunderlistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826783E5227D9B51005DF2E2 /* Debug */,
+				826783E6227D9B51005DF2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826783E7227D9B51005DF2E2 /* Build configuration list for PBXNativeTarget "WunderlistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826783E8227D9B51005DF2E2 /* Debug */,
+				826783E9227D9B51005DF2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 826783B1227D9B4F005DF2E2 /* Project object */;
+}
